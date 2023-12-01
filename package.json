@@ -1,8 +1,8 @@
 {
-  "name": "react-homework-template",
+  "name": "goiteenshw1c",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://goitacademy.github.io/react-homework-template/",
+  "homepage": "https://fedorbor.github.io/goiteenshw1c/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -36,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Acest proiect a fost creat cu ajutorul\r [Create React App](https://github.com/facebook/create-react-app). Pentru prezentări\r și configurarea de funcții suplimentare\r [consultă documentația](https://facebook.github.io/create-react-app/docs/getting-started).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
