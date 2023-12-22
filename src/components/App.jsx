@@ -1,14 +1,23 @@
+
+import FriendList from './FriendList';
+import friends from './friends.json';
 import React from 'react';
-import Greeting from './Greeting';
-import Message from './Message';
+// import Statistics from './Statistics'; 
+// import data from './data.json'; 
 
-export const App = () => {
-  const userName = 'Іван'; // Замініть це ім'ям користувача, яке ви хочете використовувати
-
+export function App() {
   return (
-    <div>
-      <Greeting name={userName} />
-      <Message text="класс" />
+    <div className="App">
+      {/* <header className="App-header">
+          <Statistics title="Upload Stats" stats={data} />
+      </header> */}
+      <header className="App-header">
+        <FriendList friends={friends} />
+      </header>
     </div>
+    
   );
-};
+}
+
+
+
